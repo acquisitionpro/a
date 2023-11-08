@@ -1,0 +1,159 @@
+@media (max-width: 1095px){
+
+
+.first-image{
+    display: flex;
+    flex-direction: column;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-one{
+    padding: 0 20px;
+    width: 100%
+}
+h2{
+    width: 80%;
+    font-size: 40px;
+}
+.fixed{
+    position: fixed;
+    left: 0 ;
+    right: 0;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height:100vh;
+    align-items: flex-start;
+    transition-duration: 1s;
+}
+.first-p{
+    padding: 0;
+    font-size: 16px;
+}
+.event{
+    padding-top: 30px;
+    width: 50%;
+}
+.break{
+    display: flex;
+    flex-direction: column;
+}
+.bimage{
+    display: none;
+}
+.abt{
+    margin-bottom: 20px;
+}
+.trust{
+    display: flex;
+    flex-direction: column;
+}
+.diff-img{
+    display: flex;
+    flex-direction: column;
+}
+a .diff{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+}
+ a .paynfts{
+    width: 200px;
+}
+.rotate{
+  rotate: 45deg;  
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height:70%;
+    align-items: flex-start;
+    transition-duration: 1s;
+}
+
+}
+
+
+
+
+@media(max-width:680px){
+.coins{
+    flex: 1 0 80%;
+    margin: 2rem 0;
+}
+}
+
+
+
+@media(max-width:480px){
+h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p{
+    font-size:13px;
+    width: 100%;
+}
+.event{
+    width: 80%;
+    height:200px;
+}
+.first-p{
+    margin-top: 0px;
+}
+.firstp{
+    font-size: 20px
+}
+
+.break{
+    padding-right: 30px;
+}
+.about{
+    margin: 20px 0;
+}
+.price{
+    font-size:10px;
+}
+.diff div p{
+    font-size: 15px;
+}
+section a .diff{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+}
+a .paynfts{
+    width: 100%;
+    height: 75px;
+}
+.trust-img{
+    width: 100%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height:100%;
+    align-items: flex-start;
+    transition-duration: 1s;
+}
+.h1{
+    font-size: 12px
+}
+}
