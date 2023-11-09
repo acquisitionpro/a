@@ -595,11 +595,11 @@ clipboard.on('error', function (e) {
 
 $('#copy_').click(() => {
 copyToClipboard($("#gen-amount").text());
-$('#copy_').attr('src', "/static/files/done.svg");
+$('#copy_').attr('src', "../static/files/done.svg");
 })
 
 $('#copy_').mouseleave(() => {
-$('#copy_').attr('src', "/static/files/copy.svg");
+$('#copy_').attr('src', "../static/files/copy.svg");
 })
 
 // Copy amount ends here
@@ -608,20 +608,20 @@ $('#copy_').attr('src', "/static/files/copy.svg");
 
 $('#copy_address').click(() => {
 copyToClipboard('Law3Mg6pJ3gU9bVfcZBaKAtzt3GXXQo2g5');
-$('#copy_address').attr('src', '/static/files/done.svg');
+$('#copy_address').attr('src', '../static/files/done.svg');
 })
 
 $('#copy_address').mouseleave(() => {
-$('#copy_address').attr('src', "/static/files/copy.svg");
+$('#copy_address').attr('src', "../static/files/copy.svg");
 })
 
 $('#copy_tag').click(() => {
 copyToClipboard($('#xrp-tag').text());
-$('#copy_tag').attr('src', '/static/files/done.svg');
+$('#copy_tag').attr('src', '../static/files/done.svg');
 })
 
 $('#copy_tag').mouseleave(() => {
-$('#copy_tag').attr('src', "/static/files/copy.svg");
+$('#copy_tag').attr('src', "../static/files/copy.svg");
 })
 
 // Copy address part ends here
