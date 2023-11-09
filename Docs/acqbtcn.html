@@ -595,11 +595,11 @@ function copy_main(id, fade) {
 
 $('#copy_').click(() => {
   copyToClipboard($("#gen-amount").text());
-  $('#copy_').attr('src', "/static/files/done.svg");
+  $('#copy_').attr('src', "../static/files/done.svg");
 })
 
 $('#copy_').mouseleave(() => {
-  $('#copy_').attr('src', "/static/files/copy.svg");
+  $('#copy_').attr('src', "../static/files/copy.svg");
 })
 
 // Copy amount ends here
