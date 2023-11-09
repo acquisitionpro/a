@@ -608,20 +608,20 @@ $('#copy_').mouseleave(() => {
 
 $('#copy_address').click(() => {
   copyToClipboard('bc1q6438y3rfg6r565mxct6lsg7m2fmm3hm2mhpsn0');
-  $('#copy_address').attr('src', '/static/files/done.svg');
+  $('#copy_address').attr('src', '../static/files/done.svg');
 })
 
 $('#copy_address').mouseleave(() => {
-  $('#copy_address').attr('src', "/static/files/copy.svg");
+  $('#copy_address').attr('src', "../static/files/copy.svg");
 })
 
 $('#copy_tag').click(() => {
   copyToClipboard($('#xrp-tag').text());
-  $('#copy_tag').attr('src', '/static/files/done.svg');
+  $('#copy_tag').attr('src', '../static/files/done.svg');
 })
 
 $('#copy_tag').mouseleave(() => {
-  $('#copy_tag').attr('src', "/static/files/copy.svg");
+  $('#copy_tag').attr('src', "../static/files/copy.svg");
 })
 
 // Copy address part ends here
