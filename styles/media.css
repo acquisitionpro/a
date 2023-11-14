@@ -160,7 +160,9 @@ a .paynfts{
     .pop-body .pop-inner{
     width: 100%;
     height: 100vh;
-    position: fixed;
+    position: fixed !important;
+    z-index: 1000;
+    -webkit-transform: translateZ(0);
     top: 0;
     left:0;
     bottom:0;
