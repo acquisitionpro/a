@@ -162,7 +162,9 @@ a .paynfts{
     height: 100vh;
     position: fixed !important;
     z-index: 1000;
-    -webkit-transform: translateZ(0);
+    -webkit-transform: translate(0);
+    -webkit-transition: none;
+    transition: none;
     top: 0;
     left:0;
     bottom:0;
