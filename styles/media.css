@@ -156,4 +156,16 @@ a .paynfts{
 .h1{
     font-size: 12px
 }
+
+    .pop-body .pop-inner{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    margin: 0;
+    border-radius: 0;
+    overflow: scroll;
+    padding: 0;
+}
 }
