@@ -174,9 +174,9 @@ a .paynfts{
     border-radius: 0;
     overflow: scroll;
     padding: 0;
-    -webkit-box-pack: none;
-        -webkit-box-align: none;
-        -ms-flex-align: none;
-        -ms-flex-pack: none;
+    -webkit-box-pack: none !important;
+        -webkit-box-align: none !important;
+        -ms-flex-align: none !important;
+        -ms-flex-pack: none !important;
 }
 }
