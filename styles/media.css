@@ -167,7 +167,6 @@ a .paynfts{
     -moz-transition-property:none !important;
     -webkit-transition-property: none !important;
     transition-property: none !important;
-    top: 0;
     left:0;
     bottom:0;
     margin: 0;
